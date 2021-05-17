@@ -25,50 +25,39 @@ Na URI possuimos alguns parametros:
 1. Clone este repositório em seu diretório local.
 - Através do comando: git clone https://github.com/gmbrunoo/the-cat-api
 <br><br>
-
 2. Inicie o Docker Desktop;
 <br><br>
-
 3. Na pasta do projeto navegue até a pasta raiz
 - Copie o caminho 
-
 <br><br>
 4. Abra o CMD;
 - Utilize o comando CD e cole o link cópiado
-
 <br><br>
 5. Com o Docker ligado digite o seguinte comando no CMD para construir a imagem do MySQL
 - docker build -t mysql-image -f api/db/Dockerfile .   <<- (Não esqueça do ponto)
 <br><br>
-
 7. Em seguida execute esse outro comando, agora iremos construir a imagem do NodeJs
 - docker build -t node-image -f api/Dockerfile .   <<- (Não esqueça do ponto)
 <br><br>
-
 8. Agora vamos executar o comando para rodar o container do MySQL
 - docker run -d -v "%cd%"/api/db/data:/var/lib/mysql --name mysql-container mysql-image
 OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
 <br><br>
-
 9. Container de pé agora vamos habilitar o terminal para usar dentro do MySQL
 - docker exec -it mysql-container /bin/bash
 <br><br>
-
 10. Navegaremos até nossa Base de dados
 - mysql -uroot -pthecatapi
 <br><br>
-
 11. E utilizamos os seguintes comandos:
 - ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'thecatapi';     <<- (não esqueça o ponto e virgula)
 - flush privileges;    <<- (não esqueça o ponto e virgula)
 - exit
 - exit
 <br><br>
-
 12. Maravilha. Agora precisamos subir o container com o NodeJS
 - docker run -d -v "%cd%"/api:/home/node/app -p 9001:9001 --link mysql-container --name node-container node-image
 <br><br>
-
 13. E finalmente por fim vamos subir nossos dados no MySQL
 - docker exec -i mysql-container mysql -uroot -pthecatapi < api/db/script.sql
 << link imagem >>
