@@ -41,7 +41,7 @@ Na URI possuimos alguns parametros:
 <br><br>
 8. Agora vamos executar o comando para rodar o container do MySQL
 - docker run -d -v "%cd%"/api/db/data:/var/lib/mysql --name mysql-container mysql-image
-OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
+- OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
 <br><br>
 9. Container de pé agora vamos habilitar o terminal para usar dentro do MySQL
 - docker exec -it mysql-container /bin/bash
