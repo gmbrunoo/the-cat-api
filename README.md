@@ -61,5 +61,4 @@ OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
 <br><br>
 13. E finalmente por fim vamos subir nossos dados no MySQL
 - docker exec -i mysql-container mysql -uroot -pthecatapi < api/db/script.sql
-<< link imagem >>
 <br><br>
