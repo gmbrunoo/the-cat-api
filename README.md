@@ -59,7 +59,7 @@ Na URI possuimos alguns parametros:
 - docker run -d -v "%cd%"/api:/home/node/app -p 9001:9001 --link mysql-container --name node-container node-image
 - OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
 <br><br>
-13. E finalmente por fim vamos subir nossos dados no MySQL
+13. E finalmente vamos subir nossos dados no MySQL
 - docker exec -i mysql-container mysql -uroot -pthecatapi < api/db/script.sql
 <br><br>
 
