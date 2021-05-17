@@ -62,3 +62,29 @@ OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
 13. E finalmente por fim vamos subir nossos dados no MySQL
 - docker exec -i mysql-container mysql -uroot -pthecatapi < api/db/script.sql
 <br><br>
+
+## Postman
+Agora vamos fazer algumas requisições com o postman.
+
+1. Abra o postman e clique no botão import
+2. Em seguida clique em upload files
+3. Procure a pasta do projeto e navegue até a pasta 'Documentação'
+4. Clique no arquivo The Cat API .postman_collection e em abrir 
+5. Clique em import
+6. Vá até collections e clique no metodo que deseja testar
+8. Exemplos de raças clicando em send:
+9. Exemplo de raças por id (raça específica), não esqueça de passar o /id desejado depois de '/cats' e clicar em send
+10. Exemplo de raças por temperament (raça por temperamento) , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/temperament/' e clicar em send
+11. Exemplo de raças por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/origin/' e clicar em send
+12. Exemplo de gatos de Glasses(Óculos) clicando em send
+13. Exemplo de gatos de Hats(Chapéu) clicando em send
+14. Sempre após fazer uma requisição no POSTMAN será gerado um log, para acessa-lo navegue para a pasta api/src/log
+15. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado thecatapi.log
+
+## Aplicação Front-End
+Por fim podemos ver como ficou a nossa página html que consome da nossa api local
+
+1. Na pasta do projeto vá até o diretório website
+2. Execute o arquivo index.html
+- Aqui podemos filtrar os gatinhos por nome da raça, origem e temperamento
+- Nos botões do menu superior temos acesso as paginas que renderizam os gatinhos de óculos e de chapéu.
