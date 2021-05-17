@@ -5,16 +5,16 @@ Para a solução do case utilizei um container Docker com uma imagem do mysql on
 
 ## Parametros:
 Na URI possuimos alguns parametros:
--- /cats : Acessa as informações de todas as 66 raças , contendo name(nome da raça), origin(origem), temperament(temperamento), description(descrição)
--- /cats/{id} : Acessa as informações de uma unica raça, podemos passar como parametro o ID que varia de 1 a 66;
--- /cats/temperament/{temperament} : Acessa as informações de todas as raças com o temperamento que é passado pelo parametro;
--- /cats/origin/{origin} : Acessa as informações de todas as raças com a origem que é passada pelo parametro;
-
--- /hats : Acessa a informação de 3 imagens de gatos com chapéu;
--- /hats/{id} : Acessa a informação de uma unica imagem, podemos passar o parametro ID que varia de 1 a 3;
-
--- /glasses : Acessa a informação de 3 imagens de gatos com óculos;
--- /glasses/{id} : Acessa a informação de uma unica imagem, podemos passar o parametro ID que varia de 1 a 3.
+- /cats : Acessa as informações de todas as 66 raças , contendo name(nome da raça), origin(origem), temperament(temperamento), description(descrição)
+- /cats/{id} : Acessa as informações de uma unica raça, podemos passar como parametro o ID que varia de 1 a 66;
+- /cats/temperament/{temperament} : Acessa as informações de todas as raças com o temperamento que é passado pelo parametro;
+- /cats/origin/{origin} : Acessa as informações de todas as raças com a origem que é passada pelo parametro;
+<br><br>
+- /hats : Acessa a informação de 3 imagens de gatos com chapéu;
+- /hats/{id} : Acessa a informação de uma unica imagem, podemos passar o parametro ID que varia de 1 a 3;
+<br><br>
+- /glasses : Acessa a informação de 3 imagens de gatos com óculos;
+- /glasses/{id} : Acessa a informação de uma unica imagem, podemos passar o parametro ID que varia de 1 a 3.
 
 ## O que é necessário para rodar a aplicação:
 - Docker para buildar os container;
