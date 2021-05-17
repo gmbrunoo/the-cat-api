@@ -1,4 +1,4 @@
-### the-cat-api
+# the-cat-api
 
 ## Descrição:
 Para a solução do case utilizei um container Docker com uma imagem do mysql onde está inserido todos os dados dos felinos, um outro container com a imagem do NodeJs com Express para rodar em localhost obtendo dados do MySql, (além de usar também o Winston para poder gerar os logs), e a aplicação front end em HTML com JavaScript que consome os dados do localhost e renderiza a página com os gatinhos.
