@@ -46,7 +46,7 @@ Na URI possuimos alguns parametros:
 8. Agora vamos executar o comando para rodar o container do MySQL
 - docker run -d -v "%cd%"/api/db/data:/var/lib/mysql --name mysql-container mysql-image<br>
 - OBS: caso utilize linux, substitua o "%cd%" por ${pwd}<br>
-<img src="https://i.imgur.com/WbG3Cg7.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/PEnHtJ8.png" title="source: imgur.com" /><br>
 <br><br>
 9. Container de pé agora vamos habilitar o terminal para usar dentro do MySQL<br>
 - docker exec -it mysql-container /bin/bash<br>
@@ -62,33 +62,45 @@ Na URI possuimos alguns parametros:
 - flush privileges;    <<- (não esqueça o ponto e virgula)<br>
 - exit<br>
 - exit<br>
-<img src="https://i.imgur.com/emJygSk.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/emJygSk.png" title="source: imgur.com" /><br>
 <br><br>
 12. Maravilha. Agora precisamos subir o container com o NodeJS
-- docker run -d -v "%cd%"/api:/home/node/app -p 9001:9001 --link mysql-container --name node-container node-image
-- OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
+- docker run -d -v "%cd%"/api:/home/node/app -p 9001:9001 --link mysql-container --name node-container node-image<br>
+- OBS: caso utilize linux, substitua o "%cd%" por ${pwd}<br>
+<img src="https://i.imgur.com/ont6bt7.png" title="source: imgur.com" /><br>
 <br><br>
 13. E finalmente vamos subir nossos dados no MySQL
-- docker exec -i mysql-container mysql -uroot -pthecatapi < api/db/script.sql
+- docker exec -i mysql-container mysql -uroot -pthecatapi < api/db/script.sql<br>
+<img src="https://i.imgur.com/SVpJdiG.png" title="source: imgur.com" /><br>
 <br><br>
 
 ## Postman
 Agora vamos fazer algumas requisições com o postman.
 
 1. Abra o postman e clique no botão import
+<img src="https://i.imgur.com/PXAPorC.png" title="source: imgur.com" /><br>
 2. Em seguida clique em upload files
-3. Procure a pasta do projeto e navegue até a pasta 'Documentação'
-4. Clique no arquivo The Cat API .postman_collection e em abrir 
-5. Clique em import
-6. Vá até collections e clique no metodo que deseja testar
-8. Exemplos de raças clicando em send:
-9. Exemplo de raças por id (raça específica), não esqueça de passar o /id desejado depois de '/cats' e clicar em send
-10. Exemplo de raças por temperament (raça por temperamento) , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/temperament/' e clicar em send
-11. Exemplo de raças por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/origin/' e clicar em send
-12. Exemplo de gatos de Glasses(Óculos) clicando em send
-13. Exemplo de gatos de Hats(Chapéu) clicando em send
-14. Sempre após fazer uma requisição no POSTMAN será gerado um log, para acessa-lo navegue para a pasta api/src/log
-15. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado thecatapi.log
+<img src="https://i.imgur.com/sXtqbWQ.png" title="source: imgur.com" /><br>
+4. Procure a pasta do projeto e navegue até a pasta 'Documentação'
+5. Clique no arquivo The Cat API .postman_collection e em abrir 
+<img src="https://i.imgur.com/sXtqbWQ.png" title="source: imgur.com" /><br>
+7. Clique em import
+8. Vá até collections e clique no metodo que deseja testar
+9. Exemplos de todas as raças.
+<img src="https://i.imgur.com/HSQOF2U.png" title="source: imgur.com" /><br>
+11. Exemplo de raças por id (raça específica), não esqueça de passar o /id desejado depois de '/cats' e clicar em send
+<img src="https://i.imgur.com/By4nWOo.png" title="source: imgur.com" /><br>
+13. Exemplo de raças por temperament (raça por temperamento) , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/temperament/' e clicar em send
+<img src="https://i.imgur.com/jd14IPW.png" title="source: imgur.com" /><br>
+15. Exemplo de raças por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/origin/' e clicar em send
+<img src="https://i.imgur.com/9w4iei7.png" title="source: imgur.com" /><br>
+17. Exemplo de gatos de Glasses(Óculos) clicando em send
+<img src="https://i.imgur.com/OaTQNEc.png" title="source: imgur.com" /><br>
+19. Exemplo de gatos de Hats(Chapéu) clicando em send
+<img src="https://i.imgur.com/VfEHIl0.png" title="source: imgur.com" /><br>
+21. Sempre após fazer uma requisição no POSTMAN será gerado um log, para acessa-lo navegue para a pasta api/src/log
+23. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado thecatapi.log
+<img src="https://i.imgur.com/jPHqL9b.png" title="source: imgur.com" /><br>
 
 ## Aplicação Front-End
 Por fim podemos ver como ficou a nossa página html que consome da nossa api local
