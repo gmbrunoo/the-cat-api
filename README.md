@@ -24,6 +24,7 @@ Na URI possuimos alguns parametros:
 ## Como rodar a aplicação:
 1. Clone este repositório em seu diretório local.
 - Através do comando: git clone https://github.com/gmbrunoo/the-cat-api
+<img src="https://i.imgur.com/ByA656o.png" title="source: imgur.com" />
 <br><br>
 2. Inicie o Docker Desktop;
 <br><br>
