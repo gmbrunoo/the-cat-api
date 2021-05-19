@@ -81,25 +81,25 @@ Agora vamos fazer algumas requisições com o postman.
 <img src="https://i.imgur.com/PXAPorC.png" title="source: imgur.com" /><br>
 2. Em seguida clique em upload files
 <img src="https://i.imgur.com/sXtqbWQ.png" title="source: imgur.com" /><br>
-4. Procure a pasta do projeto e navegue até a pasta 'Documentação'
-5. Clique no arquivo The Cat API .postman_collection e em abrir 
-<img src="https://i.imgur.com/sXtqbWQ.png" title="source: imgur.com" /><br>
-7. Clique em import
-8. Vá até collections e clique no metodo que deseja testar
-9. Exemplos de todas as raças.
+3. Procure a pasta do projeto e navegue até a pasta 'Documentação'
+4. Clique no arquivo The Cat API .postman_collection e em abrir 
+<img src="https://i.imgur.com/7t868JY.png" title="source: imgur.com" /><br>
+5. Clique em import
+6. Vá até collections e clique no metodo que deseja testar
+7. Exemplos de todas as raças.
 <img src="https://i.imgur.com/HSQOF2U.png" title="source: imgur.com" /><br>
-11. Exemplo de raças por id (raça específica), não esqueça de passar o /id desejado depois de '/cats' e clicar em send
+8. Exemplo de raças por id (raça específica), não esqueça de passar o /id desejado depois de '/cats' e clicar em send
 <img src="https://i.imgur.com/By4nWOo.png" title="source: imgur.com" /><br>
-13. Exemplo de raças por temperament (raça por temperamento) , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/temperament/' e clicar em send
+9. Exemplo de raças por temperament (raça por temperamento) , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/temperament/' e clicar em send
 <img src="https://i.imgur.com/jd14IPW.png" title="source: imgur.com" /><br>
-15. Exemplo de raças por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/origin/' e clicar em send
+10. Exemplo de raças por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/origin/' e clicar em send
 <img src="https://i.imgur.com/9w4iei7.png" title="source: imgur.com" /><br>
-17. Exemplo de gatos de Glasses(Óculos) clicando em send
+11. Exemplo de gatos de Glasses(Óculos) clicando em send
 <img src="https://i.imgur.com/OaTQNEc.png" title="source: imgur.com" /><br>
-19. Exemplo de gatos de Hats(Chapéu) clicando em send
+12. Exemplo de gatos de Hats(Chapéu) clicando em send
 <img src="https://i.imgur.com/VfEHIl0.png" title="source: imgur.com" /><br>
-21. Sempre após fazer uma requisição no POSTMAN será gerado um log, para acessa-lo navegue para a pasta api/src/log
-23. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado thecatapi.log
+13. Sempre após fazer uma requisição no POSTMAN será gerado um log, para acessa-lo navegue para a pasta api/src/log
+14. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado thecatapi.log
 <img src="https://i.imgur.com/jPHqL9b.png" title="source: imgur.com" /><br>
 
 ## Aplicação Front-End
