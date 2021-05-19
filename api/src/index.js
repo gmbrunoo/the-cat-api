@@ -1,4 +1,5 @@
 const express = require('express');
+
 var cors = require('cors')
 const mysql = require('mysql');
 const logger = require('./utils/logger');
@@ -41,7 +42,7 @@ app.get('/cats', function(req, res) {
       res.setHeader('Access-Control-Allow-Origin', 'null');
       res.status(200).send(results.map(item => ({ id: item.id, name: item.name,  origin: item.origin, temperament: item.temperament, description: item.description, img1: item.img1,  img2: item.img2, img3: item.img3})));
     });
-    logger.info(`Accessing /cats by method: ${req.method}`);
+    logger.info(`Accessing /cats by method:  ${req.method}`);
     } catch (err) {
         res.status(500).send('Internal Server Error!');
         logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
@@ -60,7 +61,7 @@ app.get('/cats/:id', function(req, res) {
       res.status(200).send(results.map(item => ({ id: item.id, name: item.name,  origin: item.origin, temperament: item.temperament, description: item.description, img1: item.img1,  img2: item.img2, img3: item.img3})));
     });
 
-    logger.info(`Accessing /cats by method: ${req.method} - Requesting the data with id: ${req.params.id}`);
+    logger.info(`Accessing /cats by method:  ${req.method}  |  Requesting the data with id:  ${req.params.id}`);
     
     } catch (err) {
         res.status(500).send('Internal Server Error!');
@@ -80,7 +81,7 @@ app.get('/cats/temperament/:temp', function(req, res) {
       res.status(200).send(results.map(item => ({ id: item.id, name: item.name,  origin: item.origin, temperament: item.temperament, description: item.description, img1: item.img1,  img2: item.img2, img3: item.img3})));
     });
 
-    logger.info(`Accessing /cats/temperament/ by method: ${req.method} - Requesting the data with temperament like: ${req.params.temp}`);
+    logger.info(`Accessing /cats/temperament/ by method:  ${req.method}  |  Requesting the data with temperament like:  ${req.params.temp}`);
     
     } catch (err) {
         res.status(500).send('Internal Server Error!');
@@ -100,7 +101,7 @@ app.get('/cats/origin/:origin', function(req, res) {
       res.status(200).send(results.map(item => ({ id: item.id, name: item.name,  origin: item.origin, temperament: item.temperament, description: item.description, img1: item.img1,  img2: item.img2, img3: item.img3})));
     });
 
-    logger.info(`Accessing /cats/origin by method: ${req.method} - Requesting the data with origin like: ${req.params.origin}`);
+    logger.info(`Accessing /cats/origin by method:  ${req.method}  |  Requesting the data with origin like:  ${req.params.origin}`);
     
     } catch (err) {
         res.status(500).send('Internal Server Error!');
@@ -119,7 +120,7 @@ app.get('/hats', function(req, res) {
             res.setHeader('Access-Control-Allow-Origin', 'null');
             res.status(200).send(results.map(item => ({ id: item.id, url: item.url })));
         });
-        logger.info(`Accessing /hats by method: ${req.method}`);
+        logger.info(`Accessing /hats by method:  ${req.method}`);
     } catch (err) {
         res.status(500).send('Internal Server Error!');
         logger.error(500).next(err).send(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
@@ -139,7 +140,7 @@ app.get('/hats/:id', function(req, res) {
       res.status(200).send(results.map(item => ({ id: item.id, url: item.url })));
     });
 
-    logger.info(`Accessing /hats by method: ${req.method} - Requesting the data with id: ${req.params.id}`);
+    logger.info(`Accessing /hats by method:  ${req.method}  |  Requesting the data with id:  ${req.params.id}`);
     
     } catch (err) {
         res.status(500).send('Internal Server Error!');
@@ -158,7 +159,7 @@ app.get('/glasses', function(req, res) {
             res.setHeader('Access-Control-Allow-Origin', 'null');
             res.status(200).send(results.map(item => ({ id: item.id, url: item.url })));
         });
-        logger.info(`Accessing /glasses by method: ${req.method}`);
+        logger.info(`Accessing /glasses by method:  ${req.method}`);
     } catch (err) {
         res.status(500).send('Internal Server Error!');
         logger.error(500).next(err).send(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
@@ -177,7 +178,7 @@ app.get('/glasses/:id', function(req, res) {
       res.status(200).send(results.map(item => ({ id: item.id, url: item.url })));
     });
 
-    logger.info(`Accessing /glasses by method: ${req.method} - Requesting the data with id: ${req.params.id}`);
+    logger.info(`Accessing /glasses by method:  ${req.method}  |  Requesting the data with id:  ${req.params.id}`);
     
     } catch (err) {
         res.status(500).send('Internal Server Error!');

@@ -3,6 +3,7 @@ let globalCats = []
 let origem = null
 let temperamento = null
 
+
 const url = "http://localhost:9001/cats"
 
 window.addEventListener('load', () => {
@@ -32,10 +33,7 @@ async function fetchCats() {
     });
 
     globalCats = cats;
-    console.log(cats)
     //console.log(cats)
-
-    // USAR SAPORRA 
     //const asd = JSON.stringify(globalCats)
     //console.log(asd);
 

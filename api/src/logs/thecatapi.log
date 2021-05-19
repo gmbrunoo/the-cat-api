@@ -1,89 +1,11 @@
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 07:33:52"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:33:52"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:33:52"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 07:43:06"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:43:06"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 07:46:19"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:46:20"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:46:24"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 07:53:16"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:53:18"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:53:19"}
-{"message":"\tRequesting the data with id: 1 -  by method: GET","level":"info","timestamp":"May-17-2021 07:53:24"}
-{"message":"\tRequesting the data with id: 30 -  by method: GET","level":"info","timestamp":"May-17-2021 07:53:29"}
-{"message":"\tRequesting the data with id: 30 -  by method: GET","level":"info","timestamp":"May-17-2021 07:56:44"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 07:59:53"}
-{"message":"\tRequesting the data with id: 1 -  by method: GET","level":"info","timestamp":"May-17-2021 08:01:51"}
-{"message":"\tRequesting the data with id: 2 -  by method: GET","level":"info","timestamp":"May-17-2021 08:01:55"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:11:56"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:12:02"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: active","level":"info","timestamp":"May-17-2021 08:12:12"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:14:14"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:14:39"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:14:43"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: temperament","level":"info","timestamp":"May-17-2021 08:14:53"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: active","level":"info","timestamp":"May-17-2021 08:14:59"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:16:13"}
-{"message":"\t\"Server Sent A Hello World!\" -  GET","level":"info","timestamp":"May-17-2021 08:16:27"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:16:33"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:16:36"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: temperament","level":"info","timestamp":"May-17-2021 08:16:44"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: active","level":"info","timestamp":"May-17-2021 08:16:49"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:23:05"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:23:17"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:23:21"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: temperament","level":"info","timestamp":"May-17-2021 08:23:29"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: Active","level":"info","timestamp":"May-17-2021 08:23:35"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: active","level":"info","timestamp":"May-17-2021 08:23:44"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: active","level":"info","timestamp":"May-17-2021 08:25:23"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:27:03"}
-{"message":"\t\"Server Sent A Hello World!\" -  GET","level":"info","timestamp":"May-17-2021 08:27:13"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:27:21"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: active","level":"info","timestamp":"May-17-2021 08:27:28"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: asdasd","level":"info","timestamp":"May-17-2021 08:27:44"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:28:58"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:29:06"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:29:18"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:29:27"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:29:39"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:29:53"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:30:04"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:30:10"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:31:08"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:31:27"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:31:33"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:31:57"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:33:03"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with temperament like: undefined","level":"info","timestamp":"May-17-2021 08:33:04"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:35:04"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:35:10"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:35:13"}
-{"message":"\tAccessing /cats/temperament/ by method: GET - Requesting the data with temperament like: Active","level":"info","timestamp":"May-17-2021 08:35:21"}
-{"message":"\tAccessing /cats/origin by method: GET - Requesting the data with origin like: cadana","level":"info","timestamp":"May-17-2021 08:35:31"}
-{"message":"\tAccessing /cats/origin by method: GET - Requesting the data with origin like: Cadana","level":"info","timestamp":"May-17-2021 08:35:36"}
-{"message":"\tAccessing /cats/origin by method: GET - Requesting the data with origin like: Canada","level":"info","timestamp":"May-17-2021 08:35:52"}
-{"message":"\tAccessing /cats/origin by method: GET - Requesting the data with origin like: Canada","level":"info","timestamp":"May-17-2021 08:36:14"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:40:47"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:40:55"}
-{"message":"\tAccessing /cats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:40:58"}
-{"message":"\tAccessing /cats/temperament/ by method: GET - Requesting the data with temperament like: Active","level":"info","timestamp":"May-17-2021 08:41:05"}
-{"message":"\tAccessing /cats/origin by method: GET - Requesting the data with origin like: Canada","level":"info","timestamp":"May-17-2021 08:41:13"}
-{"message":"\tAccessing /hats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:41:21"}
-{"message":"\tAccessing /hats by method: GET - Requesting the data with id: 2","level":"info","timestamp":"May-17-2021 08:41:24"}
-{"message":"\tAccessing /hats by method: GET - Requesting the data with id: 2","level":"info","timestamp":"May-17-2021 08:41:30"}
-{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"May-17-2021 08:43:11"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:43:20"}
-{"message":"\tAccessing /hats by method: GET","level":"info","timestamp":"May-17-2021 08:43:25"}
-{"message":"\tAccessing /hats by method: GET - Requesting the data with id: 1","level":"info","timestamp":"May-17-2021 08:43:28"}
-{"message":"\tAccessing /glasses by method: GET","level":"info","timestamp":"May-17-2021 08:43:31"}
-{"message":"\tAccessing /glasses by method: GET - Requesting the data with id: 2","level":"info","timestamp":"May-17-2021 08:43:34"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:44:08"}
-{"message":"\tAccessing /hats by method: GET","level":"info","timestamp":"May-17-2021 08:44:12"}
-{"message":"\tAccessing /glasses by method: GET","level":"info","timestamp":"May-17-2021 08:44:13"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:44:14"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:44:29"}
-{"message":"\tAccessing /cats by method: GET","level":"info","timestamp":"May-17-2021 08:44:30"}
-{"message":"\tAccessing /glasses by method: GET","level":"info","timestamp":"May-17-2021 08:45:14"}
-{"message":"\tAccessing /hats by method: GET","level":"info","timestamp":"May-17-2021 08:45:20"}
-{"message":"\tAccessing /glasses by method: GET - Requesting the data with id: 3","level":"info","timestamp":"May-17-2021 08:46:19"}
-{"message":"\tAccessing /hats by method: GET - Requesting the data with id: 2","level":"info","timestamp":"May-17-2021 08:46:58"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"19-05-2021 03:05:15"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"19-05-2021 03:12:52"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 03:14:30"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  2","level":"info","timestamp":"19-05-2021 03:14:41"}
+{"message":"\tAccessing /cats/temperament/ by method:  GET  |  Requesting the data with temperament like:  active","level":"info","timestamp":"19-05-2021 03:14:47"}
+{"message":"\tAccessing /cats/origin by method:  GET  |  Requesting the data with origin like:  Canada","level":"info","timestamp":"19-05-2021 03:14:58"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"19-05-2021 03:15:06"}
+{"message":"\tAccessing /glasses by method:  GET  |  Requesting the data with id:  3","level":"info","timestamp":"19-05-2021 03:15:13"}
+{"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"19-05-2021 03:15:20"}
+{"message":"\tAccessing /hats by method:  GET  |  Requesting the data with id:  2","level":"info","timestamp":"19-05-2021 03:15:25"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"19-05-2021 03:30:21"}
