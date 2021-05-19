@@ -29,7 +29,7 @@ Na URI possuimos alguns parametros:
 <br><br>
 3. Na pasta do projeto navegue até a pasta raiz
 - Copie o caminho 
-<img src="https://i.imgur.com/ByA656o.png" title="source: imgur.com" />
+- <img src="https://i.imgur.com/ByA656o.png" title="source: imgur.com" />
 <br><br>
 4. Abra o CMD;
 - Utilize o comando CD e cole o link cópiado
@@ -37,15 +37,16 @@ Na URI possuimos alguns parametros:
 <br><br>
 5. Com o Docker ligado digite o seguinte comando no CMD para construir a imagem do MySQL
 - docker build -t mysql-image -f api/db/Dockerfile .   <<- (Não esqueça do ponto)
-<img src="https://i.imgur.com/J8Jzgmh.png" title="source: imgur.com" />
+- <img src="https://i.imgur.com/J8Jzgmh.png" title="source: imgur.com" />
 <br><br>
 7. Em seguida execute esse outro comando, agora iremos construir a imagem do NodeJs
 - docker build -t node-image -f api/Dockerfile .   <<- (Não esqueça do ponto)
-<img src="https://i.imgur.com/jZgVLg1.png" title="source: imgur.com" />
+- <img src="https://i.imgur.com/jZgVLg1.png" title="source: imgur.com" />
 <br><br>
 8. Agora vamos executar o comando para rodar o container do MySQL
 - docker run -d -v "%cd%"/api/db/data:/var/lib/mysql --name mysql-container mysql-image
 - OBS: caso utilize linux, substitua o "%cd%" por ${pwd}
+- <img src="https://i.imgur.com/PEnHtJ8.png" title="source: imgur.com" />
 <br><br>
 9. Container de pé agora vamos habilitar o terminal para usar dentro do MySQL
 - docker exec -it mysql-container /bin/bash
