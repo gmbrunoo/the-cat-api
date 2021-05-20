@@ -19,53 +19,35 @@
 </head>
 <body>
 
-  <header> <nav>
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo">Cat API</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="chapeus.html">Hats</a></li>
-        <li><a href="oculos.html">Glasses</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
+<div class="container">
+  <h1>Cat Api</h1>
 
-  <div class="container">
-    <h1>Cat Api</h1>
+  <div class="input-field">
+    <input id="filterName"  type="text">
+    <label for="filterName">Filtrar por raça</label>
+  </div>
 
-    
-    <div class="input-field">
-      <input id="filterName"  type="text">
-      <label for="filterName">Filtrar por raça</label>
-    </div>
-
-     <div class="row">
-
-      <div class="input-field col s12 m6" id="divOrigin">
-        <form name='formSelectCat'>
-          <select data-js="selectOrigin" id="selectOrigin" name='origin' onChange="selectCat()" style="display: inline;">
-            <option value="" class="Origin">Origem</option>  
-          </select>
-          
-      </div>
-
-      <div class="input-field col s12 m6" id="divTemperament">
-        <select data-js="selectTemperament" id="selectTemperament" name='temperament' onChange="selectCat()" style="display: inline;">
-          <option value="" class="Temperament" >Temperamento</option> 
-
-        </form>
+  <div class="row">
+    <div class="input-field col s12 m6" id="divOrigin">
+      <form name='formSelectCat'>
+        <select data-js="selectOrigin" id="selectOrigin" name='origin' onChange="selectCat()" style="display: inline;">
+          <option value="" class="Origin">Origem</option>  
         </select>
-      </div> 
-
     </div>
 
-    <ul data-js="cats" class="wrap">
-    </ul>
+    <div class="input-field col s12 m6" id="divTemperament">
+      <select data-js="selectTemperament" id="selectTemperament" name='temperament' onChange="selectCat()" style="display: inline;">
+        <option value="" class="Temperament" >Temperamento</option> 
+      </form>
+      </select>
+    </div> 
+  </div>
 
+  <section data-js="cats" class="wrap"></section>
+  
+</div>
 
   <script src="./js/index.js"></script>
-  <!-- <script src="./js/app2.js"></script> -->
 
   <!-- Materialize JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

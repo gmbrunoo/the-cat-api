@@ -1,0 +1,1 @@
+source="thecatapi.log" host="si-i-05e4fbad201231fbf.prd-p-gk0p0.splunkcloud.com" sourcetype="thecatapi_json"

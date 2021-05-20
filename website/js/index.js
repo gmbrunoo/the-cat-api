@@ -1,8 +1,6 @@
-
 let globalCats = []
 let origem = null
 let temperamento = null
-
 
 const url = "http://localhost:9001/cats"
 
@@ -145,31 +143,38 @@ function renderCats(origin, temperament) {
     
     const lisCats = cats.reduce((accumulator, cats) => {
         accumulator += `
-            <li class="card steel" id="${cats.name}">
-                 <div class="circle">
-                    <img class="card-image" load="lazy" alt="${cats.name}" src="${cats.img1}">
-                    <div class="row">
-                        <div class="col s6">
-                            <img class="card-image" load="lazy" alt="${cats.name}" src="${cats.img2}">
-                        </div>
-                        <div class="col s6">
-                            <img class="card-image" load="lazy" alt="${cats.name}" src="${cats.img3}">
-                        </div>
-                        
+            <div class="cardd" id="${cats.name}">
+                <div class="face front">
+                  <div class="content">
+                    <div class="imgBx">
+                      <img load="lazy" alt="${cats.name}" src="${cats.img1}">
                     </div>
+                    <div class="contentBx">
+                      <h3>${cats.name}</h3> 
+                      <h3><span>${cats.origin}</span></h3>
+                    </div>
+                    <div class="temperamento">
+                      <h3><span>${cats.temperament}</span></h3>
+                    </div>
+                  </div>
                 </div>
-                    
-                <h2 class="card-title">${cats.name}</h2>
-                <p class="card-subtitle"><b>Origin: </b>${cats.origin}</p>
-                <p class="card-subtitle"><b>Description: </b>${cats.description}</p>
-                <p class="card-subtitle"><b>Temperament: </b>${cats.temperament}</p>                    
-            </li>
-                `
+                <div class="face back">
+          
+                  <div class="content">
+                    <div class="imgBx">
+                      <img  load="lazy" alt="${cats.name}" src="${cats.img2}">
+                      <img class="" load="lazy" alt="${cats.name}" src="${cats.img3}">
+                    </div>
+                    <div class="descricao">${cats.description}</div>
+                  </div>
+                </div>
+              </div>`
                
                 return accumulator
             }, '')
             
-        
+    // console.log(lisCats);
+
     const ul = document.querySelector('[data-js="cats"]')
     ul.innerHTML = lisCats
     
@@ -181,7 +186,7 @@ function filter(){
 
     searchText.addEventListener('keyup', function(e){
         const searchFilter =  e.target.value.toLowerCase().trim();
-        let cards = document.querySelectorAll('.card');
+        let cards = document.querySelectorAll('.cardd');
 
         //console.log(cards);
 

@@ -9,3 +9,71 @@
 {"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"19-05-2021 03:15:20"}
 {"message":"\tAccessing /hats by method:  GET  |  Requesting the data with id:  2","level":"info","timestamp":"19-05-2021 03:15:25"}
 {"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"19-05-2021 03:30:21"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"19-05-2021 20:03:56"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:04:00"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:05:02"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:07:21"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:11:33"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:11:42"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:11:53"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:11:54"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:11:55"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:12:00"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:12:12"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:12:23"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:13:23"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:15:20"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:16:50"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:21:25"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:22:00"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:24:06"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:24:57"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:26:11"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"19-05-2021 20:26:22"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 01:49:08"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 01:50:56"}
+{"message":"\t\"Server Sent A Hello World!\" -  GET","level":"info","timestamp":"20-05-2021 01:51:06"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 01:51:33"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 01:53:31"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 01:53:31"}
+{"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"20-05-2021 01:57:52"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:03:35"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:03:53"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:04:00"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:07:17"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:07:23"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:11:36"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:41"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:42"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:42"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:42"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:53"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:56"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:11:57"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:15:41"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:15:41"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:15:42"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:15:43"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:19:37"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:19:38"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:19:38"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:20:36"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:21:14"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:21:15"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:21:16"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:24:35"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:24:35"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:25:40"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:25:41"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:26:19"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:26:19"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:27:41"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:29:36"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:29:36"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:29:37"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:31:11"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:31:11"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 02:32:39"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:32:41"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:32:42"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:36:45"}
