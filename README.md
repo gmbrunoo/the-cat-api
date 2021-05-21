@@ -109,3 +109,17 @@ Por fim podemos ver como ficou a nossa página html que consome da nossa api loc
 2. Execute o arquivo index.html
 - Aqui podemos filtrar os gatinhos por nome da raça, origem e temperamento
 - Nos botões do menu superior temos acesso as paginas que renderizam os gatinhos de óculos e de chapéu.
+
+## Ferramenta de logging (Splunk)
+<img src="https://i.imgur.com/d3HLKDF.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/iifyubB.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/VGuFfG7.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/R9lftlV.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/zG11hpi.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/c9OJqVb.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/Dhdhxqg.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/y5bTBnp.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/hmVibgx.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/58jRWBg.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/WsjVkO5.png" title="source: imgur.com" /><br>
+<img src="https://i.imgur.com/pdXjj0P.png" title="source: imgur.com" /><br>
