@@ -134,4 +134,5 @@ Por fim podemos ver como ficou a nossa página html que consome da nossa api loc
 <img src="https://i.imgur.com/58jRWBg.png" title="source: imgur.com" /><br>
 9. Clique em 'Start Searching'
 <img src="https://i.imgur.com/WsjVkO5.png" title="source: imgur.com" /><br>
+10. Pronto, temos nosso log configurado para uma exibição mais detalhada.
 <img src="https://i.imgur.com/pdXjj0P.png" title="source: imgur.com" /><br>
