@@ -111,20 +111,27 @@ Por fim podemos ver como ficou a nossa página html que consome da nossa api loc
 - Nos botões do menu superior temos acesso as paginas que renderizam os gatinhos de óculos e de chapéu.
 
 ## Ferramenta de logging (Splunk)
-1. Como ferramenta de logging foi utilizado a plataforma do splunk cloud para organizar e melhorar a visibilidade dos logs.
+1. Como ferramenta de logging foi utilizado a plataforma do splunk cloud para organizar e melhorar a visibilidade dos logs
 <img src="https://i.imgur.com/d3HLKDF.png" title="source: imgur.com" /><br>
-2. No email foi enviado o link de acesso a plataforma junto com usuario e senha.
+2. No email foi enviado o link de acesso a plataforma junto com usuario e senha
 <img src="https://i.imgur.com/iifyubB.png" title="source: imgur.com" /><br>
-3. Após fazer login na plataforma vamos até a guia 'Settings' e em seguida 'ADD Data'.
+3. Após fazer login na plataforma vamos até a guia 'Settings' e em seguida 'ADD Data'
 <img src="https://i.imgur.com/VGuFfG7.png" title="source: imgur.com" /><br>
 <img src="https://i.imgur.com/R9lftlV.png" title="source: imgur.com" /><br>
-4. Em seguida precisamos realizar o upload no nosso arquivo de log e clicar em Next.
+4. Em seguida precisamos realizar o upload no nosso arquivo de log e clicar em Next
 <img src="https://i.imgur.com/zG11hpi.png" title="source: imgur.com" /><br>
 <img src="https://i.imgur.com/c9OJqVb.png" title="source: imgur.com" /><br>
-5. Precisamos agora ajustar o tipo de arquivo para Json que é o formato do nosso log.
+5. Precisamos agora ajustar o tipo de arquivo para Json que é o formato do nosso log
 <img src="https://i.imgur.com/Dhdhxqg.png" title="source: imgur.com" /><br>
+6. Agora precisamos corrigir no nosso formato de data e hora para melhor visualização do log
+- Na guia 'Advanced' vamos até o campo 'Timestamp format' e setamos os valores: %d-%m-%Y %H:%M:%S
+- Na guia 'Timestamp fields' precisamos colocar o mesmo nome do nosso campo 'Timestamp'
+- Podemos clicar em Next
 <img src="https://i.imgur.com/y5bTBnp.png" title="source: imgur.com" /><br>
+7. Salve as mudanças colocando um nome
 <img src="https://i.imgur.com/hmVibgx.png" title="source: imgur.com" /><br>
+8. Confira o preview
 <img src="https://i.imgur.com/58jRWBg.png" title="source: imgur.com" /><br>
+9. Clique em 'Start Searching'
 <img src="https://i.imgur.com/WsjVkO5.png" title="source: imgur.com" /><br>
 <img src="https://i.imgur.com/pdXjj0P.png" title="source: imgur.com" /><br>
