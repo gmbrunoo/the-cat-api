@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #161623;
+	min-height: 100vh;
+}
+
+h1{
+	color: #fff;
+}
+
+.input-field .col.s12.m6{
+	padding: 0;
+}
+
+section{
+	display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.wrap{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#f00, #f0f);
+	clip-path: circle(30% at right 70%);
+	
+}
+
+section::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#2196f3, #e91e63);
+	clip-path: circle(20% at 10% 10%);
+	z-index: -1;
+}
+
+.cardd {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	transform-style: preserve-3d;
+	perspective: 500px;
+	z-index: 1;
+}
+
+.cardd .face{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(10px);
+	transform-style: preserve-3d;
+	transition: 1s;
+	display: flex;
+	justify-content: center;
+	backface-visibility: hidden;
+}
+
+.cardd .face::after{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(10px);
+	transform-style: preserve-3d;
+	transition: 1s;
+	display: flex;
+    justify-content: center;
+}
+
+.cardd .face.front .content{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+ 
+.cardd .face.front .content .imgBx{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid rgb(255 255 255);
+}
+
+.cardd .face.front .content .imgBx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.cardd .face.front .content .contentBx h3{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.cardd:hover .face.front{
+	transform: scale(1.1);
+}
+
+.btn, .btn-large, .btn-small {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+	background-color: rgba(255, 255, 255, 0.1);
+}

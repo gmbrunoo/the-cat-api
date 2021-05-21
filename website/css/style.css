@@ -30,6 +30,12 @@ section{
     gap: 1.5rem;
 }
 
+.wrap{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section::before{
 	content: '';
 	position: absolute;
@@ -103,12 +109,7 @@ section::after{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	opacity: 0.5;
 	transition: 0.5s;
-}
-
- .cardd .face.front:hover .content{
-	opacity: 1;
 }
  
 .cardd .face.front .content .imgBx{
@@ -117,7 +118,7 @@ section::after{
 	height: 150px;
 	border-radius: 50%;
 	overflow: hidden;
-	    border: 5px solid rgb(255 255 255);
+	border: 5px solid rgb(255 255 255);
 }
 
 .cardd .face.front .content .imgBx img{
@@ -198,6 +199,7 @@ section::after{
 	width: 4px;
 	background: rgba(255, 255, 255, 0.05);
 }
+
 .cardd .face.back .descricao::-webkit-scrollbar-thumb{
 	background: rgba(255, 255, 255, 0.281);
 	border-radius: 4px;
@@ -249,11 +251,29 @@ select {
 }
 
 select:focus {
-	 outline: none;
-	 color: #26a69a;
-	 border-bottom: 2px solid #26a69a;
+	outline: none;
+	color: #26a69a;
+	border-bottom: 2px solid #26a69a;
 }
 
 #filterName{
 	color: rgb(230, 230, 230);
+}
+
+.btn, .btn-large, .btn-small {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+	background-color: rgba(255, 255, 255, 0.1);
 }

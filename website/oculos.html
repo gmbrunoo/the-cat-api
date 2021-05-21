@@ -14,29 +14,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
   <!-- custom css -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/glasses-hats-style.css" />
   
 </head>
 <body>
 
-  <header> <nav>
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo">Cat API</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li></li><a href="index.html">Home</a></li>
-        <li><a href="chapeus.html">Hats</a></li>
-        <li class="active"><a href="oculos.html">Glasses</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
-
   <div class="container">
-    <h1>Cat Api</h1>
 
-
-    <ul data-js="cats" class="wrap"></ul>
-
+    <div class="nav">
+      <div class="title"><h1>Cat Api</h1></div>
+      <div class="menu">
+        <a href="index.html" class="waves-effect waves-light btn">Home</a>
+        <a href="chapeus.html" class="waves-effect waves-light btn">Hats</a>
+        <a href="oculos.html" class="waves-effect waves-light btn active">Glasses</a>
+      </div>
+    </div>
+   
+    <section data-js="cats" class="wrap"></section>
 
   <script src="./js/glasses.js"></script>
   <!-- <script src="./js/app2.js"></script> -->

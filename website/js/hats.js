@@ -33,11 +33,15 @@ function renderCats(origin, temperament) {
     console.log(cats)
     const lisCats = cats.reduce((accumulator, cats) => {
         accumulator += `
-            <li class="card steel" id="">
-                 <div class="circle">
-                    <img class="card-image" load="lazy" alt="${cats.id}" src="${cats.url}">
-                </div>                   
-            </li>
+                <div class="cardd" id="${cats.id}">
+                    <div class="face front">
+                        <div class="content">
+                            <div class="imgBx">
+                                <img load="lazy" alt="${cats.id}" src="${cats.url}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 `
                 return accumulator
             }, '')

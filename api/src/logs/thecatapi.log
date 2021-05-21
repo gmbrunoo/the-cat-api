@@ -77,3 +77,28 @@
 {"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:32:41"}
 {"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:32:42"}
 {"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 02:36:45"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"20-05-2021 03:22:19"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 03:22:43"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 03:23:14"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 03:24:11"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 03:25:49"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"20-05-2021 03:28:12"}
+{"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"20-05-2021 03:32:56"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"20-05-2021 03:33:10"}
+{"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"20-05-2021 03:34:11"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  50","level":"info","timestamp":"20-05-2021 03:34:20"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  65","level":"info","timestamp":"20-05-2021 03:42:43"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  65","level":"info","timestamp":"20-05-2021 03:42:46"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  65","level":"info","timestamp":"20-05-2021 03:42:46"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  65","level":"info","timestamp":"20-05-2021 03:42:47"}
+{"message":"\tAccessing /cats by method:  GET  |  Requesting the data with id:  65","level":"info","timestamp":"20-05-2021 03:42:47"}
+{"message":"\tServer started and running on http://localhost:9001","level":"info","timestamp":"21-05-2021 00:13:25"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"21-05-2021 00:13:35"}
+{"message":"\tAccessing /cats by method:  GET","level":"info","timestamp":"21-05-2021 00:14:11"}
+{"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"21-05-2021 00:16:59"}
+{"message":"\tAccessing /hats by method:  GET","level":"info","timestamp":"21-05-2021 00:17:05"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"21-05-2021 00:17:05"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"21-05-2021 00:21:00"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"21-05-2021 00:21:01"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"21-05-2021 00:22:53"}
+{"message":"\tAccessing /glasses by method:  GET","level":"info","timestamp":"21-05-2021 00:23:21"}
